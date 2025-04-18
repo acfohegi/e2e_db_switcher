@@ -1,0 +1,5 @@
+require "e2e_db_switcher/version"
+require "e2e_db_switcher/db_switcher"
+require "e2e_db_switcher/engine"
+require "sidekiq/e2e_db_switcher/client_middleware"
+require "sidekiq/e2e_db_switcher/server_middleware"
