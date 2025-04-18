@@ -35,7 +35,7 @@ module E2eDbSwitcher
         'wv_e2e_test',
         redis: Redis.new(host: redis_host, password: redis_pass)
       )
-      r.get('current_db_name_sc')
+      r.get('current_db_name_pl')
     end
 
   end
