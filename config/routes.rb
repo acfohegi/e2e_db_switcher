@@ -1,4 +1,6 @@
-E2eDbSwitcher::Engine.routes.draw do
+# frozen_string_literal: true
+
+Janus::Engine.routes.draw do
   resource :database, only: [] do
     post 'switch', on: :collection
     get 'current', on: :collection
